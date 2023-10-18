@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APICatalog.Models;
 
 [Table("Products")]
-public class Product
+public class ProductModel
 {
     [Key]
     public int ProductId { get; set; }
@@ -29,6 +30,8 @@ public class Product
     public DateTime DateRegister { get; set; }
 
     public int CategoryId { get; set; }
-    public Category? Category { get; set; }  
+
+    [JsonIgnore] //ignora a propriedade na serialização, não mostra as categorias nos metodos do produto    
+    public CategoryModel? Category { get; set; }  
 
 }

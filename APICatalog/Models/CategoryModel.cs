@@ -5,11 +5,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace APICatalog.Models;
 
 [Table("Categories")]
-public class Category
+public class CategoryModel
 {
-    public Category()
+    public CategoryModel()
     {
-        Products = new Collection<Product>();
+        Products = new Collection<ProductModel>();
     }
 
     [Key]
@@ -23,5 +23,5 @@ public class Category
     [StringLength(300)]
     public string? ImageUrl { get; set; }
 
-    public ICollection<Product>? Products { get; set; }
+    public ICollection<ProductModel>? Products { get; set; }
 }

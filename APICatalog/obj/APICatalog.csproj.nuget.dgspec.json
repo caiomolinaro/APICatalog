@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\APICatalog\\APICatalog\\APICatalog.csproj": {}
+    "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\ApiCatalog\\APICatalog\\APICatalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\APICatalog\\APICatalog\\APICatalog.csproj": {
+    "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\ApiCatalog\\APICatalog\\APICatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\APICatalog\\APICatalog\\APICatalog.csproj",
+        "projectUniqueName": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\ApiCatalog\\APICatalog\\APICatalog.csproj",
         "projectName": "APICatalog",
-        "projectPath": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\APICatalog\\APICatalog\\APICatalog.csproj",
+        "projectPath": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\ApiCatalog\\APICatalog\\APICatalog.csproj",
         "packagesPath": "C:\\Users\\cmoli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\APICatalog\\APICatalog\\obj\\",
+        "outputPath": "C:\\Users\\cmoli\\OneDrive\\Área de Trabalho\\DEV\\PROJETOS\\ApiCatalog\\APICatalog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cmoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
